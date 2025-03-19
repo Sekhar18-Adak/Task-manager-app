@@ -12,20 +12,20 @@ Queue Management: Laravel Queues (for efficient email processing)<br>
 # Key Features
 <b> 1.Task Creation & Management </b> <br>
 Users can create, edit, and delete tasks effortlessly.
-Each task has details such as description, owner, estimated completion time, and status.
+Each task has details such as description, owner, estimated completion time, and status.<br>
 <b> 2. Task Status Management</b> <br>
 Users can mark a task as completed with a single click.
-The interface visually distinguishes pending and completed tasks.
+The interface visually distinguishes pending and completed tasks.<br>
 <b> 3. Mailing System (SMTP Integration using Mailtrap for Testing) </b> <br>
 When a task is created, updated, or marked as done, an automated email notification is sent to the assigned user.
 Uses Laravel's Mail system with SMTP for reliable email delivery.
 Email sending is handled via queues to improve performance and prevent delays.
-Mailtrap is used for testing to ensure emails work correctly before going live.
+Mailtrap is used for testing to ensure emails work correctly before going live.<br>
 <b> 4. Real-time UI Updates with JavaScript </b> <br>
 Tasks update dynamically in the UI without needing a full page refresh.
-Smooth user experience with AJAX-based operations.
+Smooth user experience with AJAX-based operations.<br>
 <b> 5. Database Optimization </b> <br>
-Uses Eloquent ORM for efficient database interactions.
+Uses Eloquent ORM for efficient database interactions.<br>
 <b> 6.Performance Enhancements </b> <br>
 Optimized queries and caching techniques for faster data retrieval.
 Queue system offloads email processing, reducing app load time.
